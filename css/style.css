@@ -1,0 +1,199 @@
+@charset "utf-8";
+body {
+    background: url("../images/bg_pattern.png") repeat;
+    font-family: 'Open Sans', sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+img{
+	width:100%;
+}
+.content{
+	width:80%;
+	margin:auto;
+}
+.logo{
+	background-color:white;
+}
+.logo >a>img{
+	width:250px;
+}
+.menu{
+	background-color:#003B7A;
+}
+.nav{
+	background-color: #003B7A;
+	margin:0 !important;
+	border-bottom:none !important;
+	
+}
+.nav >li>a{
+	padding: 20px 20px !important;
+	
+	
+}
+.carousel-control{
+	height:30%;
+	top: 50% !important;
+}
+.panel-heading h2 {
+    font-weight: 800;
+    font-size: 1.8em;
+}
+.panel-heading h2>span {
+    font-weight: normal;
+    font-size: 1em;
+}
+.panel-body{
+	padding: 15px;
+}
+.list-item {
+    border-bottom: 2px #d9d9d9 solid;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 15px;
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.news{
+	    margin-left: 10px !important;
+    background-color: #4BB4B6;
+	color:white;
+}
+.datetime{
+	    text-align: center;
+		
+}
+.topnewsdate {
+    font-family: 'Prata', serif;
+    font-size: 3.1em;
+    line-height: 1em;
+    margin-left: 15px;
+}
+.topnewsmonth {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-left: 15px;
+}
+.right-news{
+	padding:25px;
+	
+}
+.left-news{
+	padding:25px;
+	border-right:1px #d9d9d9 solid;
+	
+}
+.headlinesdm{
+	    float: left;
+    font-family: 'Prata', serif;
+}
+.headlinesday{
+	border-bottom: 1px solid #fff;
+}
+.headlinesyear {
+    line-height: 3.5em;
+    float: left;
+    margin-left: 3px;
+}
+.bottom-news a{
+	color:white;
+	padding:5px;
+}
+.bottom-news{
+	background-color: #56bdbf !important;
+    padding: 0;
+}
+.bottom-news-1{
+	padding:5px;
+}
+.title-news{
+	margin-top:10px;
+}
+.bottom-viewmore{
+	text-align: center;
+    padding: 15px;
+}
+.bottom-viewmore a{
+	color:white;
+	text-transform: uppercase;
+}
+.tdc .row{
+background-color:white;
+}
+.tdc p{
+	padding:15px;
+}
+.doitac .logo>img{
+	    border: 1px #e0e0e0 solid;
+		
+}
+.doitac .logo{
+	   margin-bottom:15px;
+}
+.hocthuat{
+	margin-bottom:20px;
+}
+.hocthuat .row{
+	background-color:white;
+}
+footer{
+	background-color:#003B7A;
+	color:white;
+}
+footer .container .row{
+	margin-top:30px;
+	
+}
+footer a{
+	color:white;
+}
+footer a:hover{
+	color:white;
+}
+.bottom-link{
+	list-style:none;
+}
+.bottom-link li{
+	    border-bottom: 1px dotted #0060c5;
+    padding: 15px 0;
+}
+.diachi{
+	background-color:white;
+	padding:10px;
+}
+.lienhe{
+	background-color:white;
+}
+.container .row .row{
+	
+} 
+.panel{
+	background-color:transparent !important;
+}
+.panel-body{
+	background-color:white;
+}
+.panel-1{
+	padding-top:50px;
+}
+
+ @media only screen and (min-width: 769px){
+        .onmb{
+			display:none;
+		} 
+		
+}
+    
+	
+	 @media only screen and (max-width: 768px){
+        .ontbdt{
+			display:none;
+		}     
+    }
